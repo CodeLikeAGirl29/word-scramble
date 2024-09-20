@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Word Scrambler</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./assets/styles.css" />
+	</head>
+	<body>
+		<div class="game-container">
+			<h1 class="game-title">Word Scramble</h1>
+			<p>
+				This is my Disney character Word Scramble game! Can you guess correctly?
+			</p>
+			<div class="scrambled-word" id="scrambledWord"></div>
+			<div class="inputs-container" id="inputsContainer"></div>
+
+			<div class="game-info">
+				<p>Tries: <span id="tries">0</span>/5</p>
+				<p>Mistakes: <span id="mistakes"></span></p>
+			</div>
+
+			<div class="buttons-container">
+				<button id="randomBtn">Random</button>
+				<button id="resetBtn">Reset</button>
+			</div>
+		</div>
+
+		<div class="result-card" id="resultCard">
+			<div class="result-content">
+				<h2 id="resultMessage">You Win!</h2>
+				<button id="playAgainBtn">Play Again</button>
+			</div>
+		</div>
+
+		<script src="assets/app.js"></script>
+	</body>
+</html>
