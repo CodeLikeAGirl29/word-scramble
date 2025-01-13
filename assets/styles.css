@@ -145,6 +145,11 @@ body {
   transform: scale(1.05);
 }
 
+#mistakeIcons {
+  display: inline-flex;
+  align-items: center;
+}
+
 /* Responsive Design */
 @media (max-width: 640px) {
   .scrambled-word {
